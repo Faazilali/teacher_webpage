@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:.2rem;
+    font-family: sans-serif;
+}
+
+.parent{
+    display:flex;
+}
+
+.logo h1{
+    color:#2ee8bb;
+}
+
+.navbtn{
+    width:100%;
+    text-align: right;
+}
+
+.navbtn button{
+    border-radius:.5rem;
+    font-size:.8rem;
+    background: #2ee8bb;
+    color:#fff;
+    border:transparent;
+    padding:.5rem;
+    margin-top:.2rem;
+    cursor: pointer;
+}
+
+.container{
+    margin-top:3rem;
+}
+
+.teacher img{
+    width:100%;
+    margin-top:.2rem;
+    border-radius: 2rem;
+    padding-top:.5rem;
+}
+
+.content{
+    text-align: center;
+    margin-top:1rem;
+}
+
+.content p{
+    margin-top:1rem;
+}
+
+.parent2{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.bookmebtn button{
+    border-radius:.5rem;
+    font-size:1rem;
+    background: #2ee8bb;
+    color:#fff;
+    border:transparent;
+    width:5rem;
+    padding:.5rem;
+    cursor: pointer;
+}
+
+.questionbtn button{
+    border-radius:.5rem;
+    border-color: #2ee8bb;
+    color:#2ee8bb;
+    background: transparent;
+    padding:.5rem;
+    cursor: pointer;
+}
+
+.questionbtn button:hover{
+    background:#2ee8bb;
+    border-color: transparent;
+    color:#fff;
+
+}
+
+.parent3{
+    display:grid;
+    justify-content: center;
+    margin-top:1rem;
+}
+
+.social-icon{
+    text-align: center;
+}
+
+
+.contact-icon{
+    display:block;
+    text-align: center;
+}
+
+.social-icon ul li a{
+    text-decoration: none;
+    font-size:1.5rem;
+    color:black;
+}
+
+.contact-icon ul li a{
+    text-decoration: none;
+    font-size:1rem;
+    color:black;
+}
+
+
+@media only screen and (min-width:768px){
+    .logo h1{
+        font-size:3rem;
+    }
+    
+    .navbtn button{
+        font-size:1.2rem;
+        padding:1rem;
+        margin-top:.5rem;
+        margin-left:28rem;
+    }
+
+    .content h1{
+        font-size:3.5rem;
+    }
+
+    .content h3{
+        font-size:2rem;
+    }
+
+    .content p{
+        font-size:1.5rem;
+    }
+
+    .bookmebtn button{
+        font-size:1.5rem;
+        width:8rem;
+        padding:1rem;
+    }
+
+    .questionbtn button{
+        padding:1rem;
+        font-size:1.5rem;
+        width:15rem;
+    }
+
+    .parent3{
+        display:flex;
+        justify-content: center;
+        margin-top:3rem;
+        gap:5rem;
+    }
+
+    .social-icon{
+        display:block;
+    }
+
+    .contact-icon{
+        display:block;
+        align-items: right;
+        text-align: center;
+        margin-right:2rem;
+    }
+
+    .social-icon ul li a{
+        text-decoration: none;
+        font-size:3rem;
+        color:black;
+    }
+
+    .contact-icon ul li a{
+        text-decoration: none;
+        font-size:2rem;
+        color:black;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .container{
+        display:flex;
+    }
+
+    .teacher img{
+        width:100%;
+        border-radius: 2rem;
+        height:25rem;
+        width:40rem;
+    }
+
+    .content{
+        text-align: left;
+        margin-left:3rem;
+    }
+
+    .content h3{
+        font-size:1.5rem;
+    }
+
+    .content p{
+        text-align: justify;
+        margin-right:6rem;
+    }
+
+    .parent2{
+        justify-content: left;
+    }
+
+
+
+
+}
